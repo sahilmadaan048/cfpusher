@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std; const string s = "codeforces"; void solve() {	char c;	cin >> c;	for (char i : s) {		if (i == c) {cout << "YES\n"; return;}	}	cout << "NO\n";} int main() {	ios::sync_with_stdio(false);	cin.tie(nullptr);	int tt; cin >> tt; for (int i = 1; i <= tt; i++) {solve();}	// solve();}
