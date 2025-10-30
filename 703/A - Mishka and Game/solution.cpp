@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;#define LL long long#define pp pair<int,LL>#define mp make_pairint n,a,b,cnt;int main(){	cin>>n;	while(n--){		cin>>a>>b;		if(a>b)cnt++;		else if(a<b)cnt--;	}	if(cnt>0)cout<<"Mishka";	else if(cnt<0)cout<<"Chris";	else cout<<"Friendship is magic!^^";	return 0;}
