@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int a[5];int main(){	scanf("%d%d%d",&a[1],&a[2],&a[3]);	sort(a+1,a+4);	if(a[3]-a[1]>=10) puts("check again");	else printf("final %d\n",a[2]);}
